@@ -1,7 +1,13 @@
 age = int(input('Enter Age:'))
 
-if age >= 10 and age <= 20:
+if age > 9 and age < 21:
     print('You are Kid')
-if age >= 21:
+
+elif age > 20 and age < 35:
+    print('You are Young')
+
+elif age > 34 and age < 121:
     print('You are Old')
 
+else:
+    print('You are not Human')
