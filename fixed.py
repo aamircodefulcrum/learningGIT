@@ -1,4 +1,3 @@
-
 age = int(input('Enter Age:'))
 
 if age > 9 and age < 21:
