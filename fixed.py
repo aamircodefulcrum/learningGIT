@@ -9,5 +9,8 @@ elif age > 20 and age < 35:
 elif age > 34 and age < 51:
     print('You are Mid Aged')
 
+elif age > 50 and age < 121:
+    print('You are Old')
+
 else:
     print('You are not Human')
