@@ -1,3 +1,4 @@
+
 age = int(input('Enter Age:'))
 
 if age >= 10  and age <= 20:
