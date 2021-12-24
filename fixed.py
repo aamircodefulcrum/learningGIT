@@ -1,6 +1,9 @@
 age = int(input('Enter Age:'))
 
-if age > 9 and age < 21:
+if age > 1 and age < 4:
+    print('You are baby')
+
+elif age > 10  and age < 20:
     print('You are Kid')
 
 elif age > 20 and age < 35:
